@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*:focus {
+  outline: none;
+  outline: 2px solid #fff;
+  outline-offset: 3px;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* background-color: #74a5c0; */
+  color: #353232;
+}
+
+nav {
+  background-color: #74a5c0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 2rem;
+}
+
+.navigation-menu {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  list-style: none;
+}
+
+.navigation-menu-item {
+  text-decoration: none;
+  color: #333;
+  padding: 0 1rem;
+  font-size: 1.4rem;
+}
+
+label {
+  font-size: 1.2rem;
+  padding-right: 0.8rem;
+}
+
+.label-small {
+  width: 3.6rem;
+}
+
+.icons-img {
+  height: 1.5rem;
+}
+
+input {
+  padding: 0.5rem;
+  /* border-radius: 10px; */
+  border: none;
+  width: 15rem;
+}
+
+.form-container {
+  max-width: 60rem;
+  margin: 4rem auto;
+  padding: 2rem;
+  /* border-radius: 9px; */
+  background-color: #74a5c0;
+  /* width: 100%; */
+}
+
+.grid-col-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 2rem;
+  margin-top: 2rem;
+}
+
+.form-inputs {
+  padding-top: 1.6rem;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 2fr;
+  gap: 5px;
+}
+.submit-button-container {
+  padding-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  justify-content: flex-end;
+}
+.submit-button,
+.submit-button-exit {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #06d6a0;
+}
+.submit-button-exit:hover {
+  background-color: #d62828;
+}
+
+.icon-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
